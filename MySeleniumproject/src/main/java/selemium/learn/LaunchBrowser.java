@@ -24,7 +24,7 @@ public class LaunchBrowser {
 		WebElement searchedText=driver.findElement(By.xpath("//div[@class=\"a-section a-spacing-small a-spacing-top-small\"]/span[1]"));
 		String strSearchedText=searchedText.getText();
 		System.out.println("Search results displayed as:"+strSearchedText + " for "+strSearch);
-		System.out.println("Exact number of serach results displayed as:"+strSearchedText.substring(8,20));
+		System.out.println("Exact number of serach results displayed as: "+strSearchedText.substring(8,20));
 		
 		
 		driver.quit();
